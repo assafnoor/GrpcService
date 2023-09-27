@@ -1,7 +1,7 @@
 ﻿using Grpc.Core;
 using GrpcService.Data;
 using GrpcService.Models;
-using GrpcService.Protos;
+using GrpcService;
 using Microsoft.EntityFrameworkCore;
 
 namespace GrpcService.Services
