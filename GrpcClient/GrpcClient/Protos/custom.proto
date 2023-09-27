@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package custom;
+
+service Custom {
+  
+  rpc GetInfo (GetInfoRequest) returns (GetInfoReply);
+}
+message GetInfoRequest{
+	int32 id=1;
+}
+message GetInfoReply{
+	string name=1;
+}
